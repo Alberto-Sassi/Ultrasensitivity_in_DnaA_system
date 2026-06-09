@@ -15,3 +15,5 @@ To run a parameter sweep, use (i.e. for tau=25 min)
 $ python -m experiments.sweeps.run_sweep --config src/configs/base_tau=25.yaml --sweep src/configs/sweeps/cooperativity_binding_energy.yaml
 
 Simulation outputs (time traces) are saved in JSON format in the results/ directory.
+
+The functions of the firing rate k is located in src/model .
