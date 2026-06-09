@@ -1,0 +1,1 @@
+In this folder the traces produced by the simulations are saved. 
