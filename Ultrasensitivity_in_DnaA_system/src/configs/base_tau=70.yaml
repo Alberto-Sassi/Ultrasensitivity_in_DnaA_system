@@ -1,0 +1,27 @@
+
+model:
+  SITES: 300
+  REP_TIME: 40.0
+  GROWTH_RATE: 0.009902 #tau = 70 min
+  ORIGIN_SITES: 8.0
+  E_COST: 13.0
+  FIRING_MAX: 50.0
+  K_OPEN: 10000.0
+  D: 20.0
+  ECLIPSE: 10.0
+  LICENSING: 2.5
+  DNAA_CONCENTRATION: 1000.0
+  K: 1.0
+  CHI0: 0.23 
+  ALPHA_MAX: 0.23
+  COOP: 40.0
+  REGIME: "constant"
+
+simulation:
+  seed: 1234
+  T_MAX: 200000
+  DT: 0.098
+
+output:
+  dir: "results/fig1"
+  dpi: 200

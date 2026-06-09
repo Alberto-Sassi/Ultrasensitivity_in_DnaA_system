@@ -1,0 +1,21 @@
+
+base_yaml: "./src/configs/base_tau=25.yaml"
+
+type: "grid"
+params:
+  COOP:
+    min_val: 2.
+    max_val:  10.
+    steps: 14
+  K_OPEN:
+    min_val: 2.
+    max_val:  10.
+    steps: 14
+  CHANGE: 1.1
+output_dir: "results/data"
+tag: "y_kori"
+
+simulation:
+  seed: 1234
+  T_MAX: 200000
+  DT: 0.098
